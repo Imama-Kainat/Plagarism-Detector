@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="PLED.JPG" alt="Aurora AI Logo" width="150" height="150"/>
+</p>
 # Plagiarism Detector
 
 A robust system for detecting code similarities and potential plagiarism in programming assignments.
