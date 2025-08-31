@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="PLED.JPG" alt="Aurora AI Logo" width="150" height="150"/>
+  <img src="PLED.JPG" alt="Aurora AI Logo" width="100%"/>
 </p>
 # Plagiarism Detector
 
