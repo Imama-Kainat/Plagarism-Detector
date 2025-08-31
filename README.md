@@ -1,4 +1,5 @@
-#Plagiarism Detector
+# Plagiarism Detector
+
 <p align="center">
   <img src="PLED.JPG" alt="Aurora AI Logo" width="100%"/>
 </p>
@@ -17,6 +18,10 @@ This plagiarism detection system identifies similar code submissions using a mul
 5. **Representative Selection**: Uses a greedy algorithm with merge sort to select representative submissions from each cluster.
 6. **Metadata Management**: Stores and retrieves submission metadata efficiently using a B+ Tree structure.
 7. **Real-time Updates**: Processes new submissions and updates clusters incrementally.
+
+<p align="center">
+  <img src="images/1.JPG" alt="Aurora AI Logo" width="100%"/>
+</p>
 
 ## Project Structure
 
@@ -50,6 +55,9 @@ PlagiarismDetector/
     ├── test_realtime.txt # Results of real-time update test
     └── results.txt       # Default output file
 ```
+<p align="center">
+  <img src="images/2.JPG" alt="Aurora AI Logo" width="100%"/>
+</p>
 
 ## Setup and Usage
 
@@ -73,6 +81,10 @@ PlagiarismDetector/
 3. **Command-line arguments**:
    - First argument: Input directory (default: "inputs")
    - Second argument: Similarity threshold (default: 0.5)
+  
+  <p align="center">
+  <img src="images/3.JPG" alt="Aurora AI Logo" width="100%"/>
+</p>
 
 ### Output Format
 
@@ -114,6 +126,9 @@ The detector outputs a text file with the following sections:
 
 5. **Threshold Sensitivity Test**: Tests system with multiple similarity thresholds.
    - **Expected outcome**: Different thresholds produce different clustering results, showing sensitivity.
+     <p align="center">
+  <img src="images/5.JPG" alt="Aurora AI Logo" width="100%"/>
+</p>
 
 ## Edge Case Handling
 
@@ -133,7 +148,9 @@ The system handles several important edge cases:
 - **Greedy Selection**: Chooses representatives based on highest average similarity within clusters.
 - **B+ Tree**: Enables efficient storage and retrieval of metadata.
 - **Merge Sort**: Used to rank submissions by similarity scores.
-
+<p align="center">
+  <img src="images/5.JPG" alt="Aurora AI Logo" width="100%"/>
+</p>
 ## Performance
 
 The system efficiently processes 75+ submissions in seconds, with customizable similarity thresholds to balance precision and recall when detecting potential plagiarism.
