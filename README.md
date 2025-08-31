@@ -20,7 +20,7 @@ This plagiarism detection system identifies similar code submissions using a mul
 7. **Real-time Updates**: Processes new submissions and updates clusters incrementally.
 
 <p align="center">
-  <img src="images/1.JPG" alt="Aurora AI Logo" width="100%"/>
+  <img src="image/1.JPG" alt="Aurora AI Logo" width="100%"/>
 </p>
 
 ## Project Structure
@@ -83,7 +83,7 @@ PlagiarismDetector/
    - Second argument: Similarity threshold (default: 0.5)
   
   <p align="center">
-  <img src="images/3.JPG" alt="Aurora AI Logo" width="100%"/>
+  <img src="image/3.JPG" alt="Aurora AI Logo" width="100%"/>
 </p>
 
 ### Output Format
@@ -127,7 +127,7 @@ The detector outputs a text file with the following sections:
 5. **Threshold Sensitivity Test**: Tests system with multiple similarity thresholds.
    - **Expected outcome**: Different thresholds produce different clustering results, showing sensitivity.
      <p align="center">
-  <img src="images/5.JPG" alt="Aurora AI Logo" width="100%"/>
+  <img src="image/4.JPG" alt="Aurora AI Logo" width="100%"/>
 </p>
 
 ## Edge Case Handling
@@ -149,7 +149,7 @@ The system handles several important edge cases:
 - **B+ Tree**: Enables efficient storage and retrieval of metadata.
 - **Merge Sort**: Used to rank submissions by similarity scores.
 <p align="center">
-  <img src="images/5.JPG" alt="Aurora AI Logo" width="100%"/>
+  <img src="image/5.JPG" alt="Aurora AI Logo" width="100%"/>
 </p>
 ## Performance
 
