@@ -56,7 +56,7 @@ PlagiarismDetector/
     └── results.txt       # Default output file
 ```
 <p align="center">
-  <img src="images\2.JPG" alt="Aurora AI Logo" width="100%"/>
+  <img src="image\2.JPG" alt="Aurora AI Logo" width="100%"/>
 </p>
 
 ## Setup and Usage
