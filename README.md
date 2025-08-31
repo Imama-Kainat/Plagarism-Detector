@@ -20,7 +20,7 @@ This plagiarism detection system identifies similar code submissions using a mul
 7. **Real-time Updates**: Processes new submissions and updates clusters incrementally.
 
 <p align="center">
-  <img src="image/1.JPG" alt="Aurora AI Logo" width="100%"/>
+  <img src="image\1.JPG" alt="Aurora AI Logo" width="100%"/>
 </p>
 
 ## Project Structure
